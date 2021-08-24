@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "Snowflake_Test_instance",
+            "account": "xe71376.ap-south-1.aws",
+            "username": "lancerique",
+            "password": "Mdobi20mniN@",
+            "database": "dbt_hol_dev",
+            "warehouse": "DBT_DEV_WH"
+        }
+    ]
+}
